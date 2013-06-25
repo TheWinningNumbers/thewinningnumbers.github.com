@@ -9,163 +9,163 @@
     <html class="ie ie8" lang="en">
 <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-    <!-- Your Basic Site Informations -->
-	<title>The Winning Numbers, UK National Lottery Number Generator</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <meta name="description" content="Random generator of numbers for the UK national lottery games. Generate your own random lottery numbers taylored specifically for you based on some minor personal information.">
-    <meta name="keywords" content="random, number, generators, rgn, lottery, lotto, national lottery">
-    <meta name="author" content="The Winning Numbers">
-    
-    <!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <head>
+        <!-- Your Basic Site Informations -->
+        <title>The Winning Numbers, UK National Lottery Number Generator</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta name="description" content="Random generator of numbers for the UK national lottery games. Generate your own random lottery numbers taylored specifically for you based on some minor personal information.">
+        <meta name="keywords" content="random, number, generators, rgn, lottery, lotto, national lottery">
+        <meta name="author" content="The Winning Numbers">
+        
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- Stylesheets -->
-   	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/skeleton.css">
-    <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet" type="text/css">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet" type="text/css">
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="/imgs/favicon.ico">
-	<link rel="apple-touch-icon" href="/imgs/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/imgs/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/imgs/apple-touch-icon-114x114.png">
-    
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/seedrandom.min.js"></script>
-    <script type="text/javascript" src="js/naturalsort.min.js"></script>
-    <script type="text/javascript" src="js/numbers.js"></script>
-    <script type="text/javascript" src="js/mailchimp.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</head>
-<body>
-    <div class="edgeSection"></div> <!-- Edge Background -->
-    <div class="top">
-        <header class="container">
-            <!-- Left -->
-            <div class="two-thirds column top_left">
-                <h1>The Winning Numbers</h1>
-                <h5></h5>
-            </div>
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="/imgs/favicon.ico">
+        <link rel="apple-touch-icon" href="/imgs/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/imgs/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/imgs/apple-touch-icon-114x114.png">
+        
+        <!-- Javascripts
+        ================================================== -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/seedrandom.min.js"></script>
+        <script type="text/javascript" src="js/naturalsort.min.js"></script>
+        <script type="text/javascript" src="js/numbers.js"></script>
+        <script type="text/javascript" src="js/mailchimp.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="edgeSection"></div> <!-- Edge Background -->
+        <div class="top">
+            <header class="container">
+                <!-- Left -->
+                <div class="two-thirds column top_left">
+                    <h1>The Winning Numbers</h1>
+                    <h5></h5>
+                </div>
 
-            <!-- Right -->
-            <div class="one-third column top_right">
-                <a href="https://www.twitter.com/Lottery_Winning" target="_blank">
-                    <img src="imgs/social/twitter.png" alt="twitter" title="Follow Us on Twitter">
-                </a>
-            </div>
-        </header>
-    </div>
-
-    <div class="sepBorder"></div> <!-- Separator -->
-
-    <div class="container center">
-        <div class="two-thirds column">
-            <h2>Lotto</h2>
-            <div class="two-thirds column" id="lotto">
-                <div class="regularNumber"><span id="js_lotto1"></span></div>
-                <div class="regularNumber"><span id="js_lotto2"></span></div>
-                <div class="regularNumber"><span id="js_lotto3"></span></div>
-                <div class="regularNumber"><span id="js_lotto4"></span></div>
-                <div class="regularNumber"><span id="js_lotto5"></span></div>
-                <div class="regularNumber"><span id="js_lotto6"></span></div>
-                <div class="bonusNumber"><span id="js_lotto7"></span></div>
-            </div>
-            
-            <h2>Euromillions</h2>
-            <div class="two-thirds column" id="euromillions">
-                <div class="regularNumber"><span id="js_euro1"></span></div>
-                <div class="regularNumber"><span id="js_euro2"></span></div>
-                <div class="regularNumber"><span id="js_euro3"></span></div>
-                <div class="regularNumber"><span id="js_euro4"></span></div>
-                <div class="regularNumber"><span id="js_euro5"></span></div>
-                <div class="bonusNumber"><span id="js_euro6"></span></div>
-                <div class="bonusNumber"><span id="js_euro7"></span></div>
-            </div>
+                <!-- Right -->
+                <div class="one-third column top_right">
+                    <a href="https://www.twitter.com/Lottery_Winning" target="_blank">
+                        <img src="imgs/social/twitter.png" alt="twitter" title="Follow Us on Twitter">
+                    </a>
+                </div>
+            </header>
         </div>
-        <div class="four columns">
-            <form id="recalculate" onsubmit="return calculateNumbers(this);">
-                <label>Your Date of Birth:</label>
-                <input type="text" id="dob" value="" />
-                <label>An Important Date:</label>
-                <input type="text" id="impd" value="" />
+
+        <div class="sepBorder"></div> <!-- Separator -->
+
+        <div class="container center">
+            <div class="two-thirds column">
+                <h2>Lotto</h2>
+                <div class="two-thirds column" id="lotto">
+                    <div class="regularNumber"><span id="js_lotto1"></span></div>
+                    <div class="regularNumber"><span id="js_lotto2"></span></div>
+                    <div class="regularNumber"><span id="js_lotto3"></span></div>
+                    <div class="regularNumber"><span id="js_lotto4"></span></div>
+                    <div class="regularNumber"><span id="js_lotto5"></span></div>
+                    <div class="regularNumber"><span id="js_lotto6"></span></div>
+                    <div class="bonusNumber"><span id="js_lotto7"></span></div>
+                </div>
                 
-                <input type="submit" value="Recalculate" name="recalculate" class="button">
-            </form>
+                <h2>Euromillions</h2>
+                <div class="two-thirds column" id="euromillions">
+                    <div class="regularNumber"><span id="js_euro1"></span></div>
+                    <div class="regularNumber"><span id="js_euro2"></span></div>
+                    <div class="regularNumber"><span id="js_euro3"></span></div>
+                    <div class="regularNumber"><span id="js_euro4"></span></div>
+                    <div class="regularNumber"><span id="js_euro5"></span></div>
+                    <div class="bonusNumber"><span id="js_euro6"></span></div>
+                    <div class="bonusNumber"><span id="js_euro7"></span></div>
+                </div>
+            </div>
+            <div class="four columns">
+                <form id="recalculate" onsubmit="return calculateNumbers(this);">
+                    <label>Your Date of Birth:</label>
+                    <input type="text" id="dob" value="" />
+                    <label>An Important Date:</label>
+                    <input type="text" id="impd" value="" />
+                    
+                    <input type="submit" value="Recalculate" name="recalculate" class="button">
+                </form>
+            </div>
         </div>
-    </div>
- 
-    <div class="footer">
-        <footer class="container main">
-            <!-- About Us -->
-            <div class="five columns about">
-                <div class="header">
-                    <h4>About Us</h4>
+     
+        <div class="footer">
+            <footer class="container main">
+                <!-- About Us -->
+                <div class="five columns about">
+                    <div class="header">
+                        <h4>About Us</h4>
+                    </div>
+                    <p>We're a platform/service designed to help you choose numbers to play on the UK National Lottery games, Lotto and Euromillions. We can't guarantee you'll win but it's got to be worth a shot right?</p>
+                    <p>You have any questions? You can contact us using the email address below!</p>
+                    <span>Email : <a href="mailto:info@the-winning-numbers.com">info@the-winning-numbers.com</a></span>
                 </div>
-                <p>We're a platform/service designed to help you choose numbers to play on the UK National Lottery games, Lotto and Euromillions. We can't guarantee you'll win but it's got to be worth a shot right?</p>
-                <p>You have any questions? You can contact us using the email address below!</p>
-                <span>Email : <a href="mailto:info@the-winning-numbers.com">info@the-winning-numbers.com</a></span>
-            </div>
-       
-            <!-- Latest Tweets -->
-            <div class="five columns tweets">
-                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Lottery_Winning" data-widget-id="349480542145765377">Tweets by @Lottery_Winning</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-       
-            <!-- Stay Up To Date -->
-            <div class="five columns uptodate">
-                <div class="header">
-                    <h4>Stay Up To Date</h4>
+           
+                <!-- Latest Tweets -->
+                <div class="five columns tweets">
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/Lottery_Winning" data-widget-id="349480542145765377">Tweets by @Lottery_Winning</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
-                <p>Stay up to date  by subcribing to the newsletter.</p>
-                <div id="mc_embed_signup">
-                    <form action="http://the-winning-numbers.us7.list-manage.com/subscribe/post?u=23e5e7d001f94b65d34b74e42&amp;id=aabf34670b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="mc-field-group">
-                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-FNAME">First Name </label>
-                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                        </div>
-                        <div class="mc-field-group">
-                            <label for="mce-LNAME">Last Name </label>
-                            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                        </div>
-                        <div id="mce-responses" class="">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
-                        <div class="">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                    </form>
+           
+                <!-- Stay Up To Date -->
+                <div class="five columns uptodate">
+                    <div class="header">
+                        <h4>Stay Up To Date</h4>
+                    </div>
+                    <p>Stay up to date  by subcribing to the newsletter.</p>
+                    <div id="mc_embed_signup">
+                        <form action="http://the-winning-numbers.us7.list-manage.com/subscribe/post?u=23e5e7d001f94b65d34b74e42&amp;id=aabf34670b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-FNAME">First Name </label>
+                                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-LNAME">Last Name </label>
+                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                            </div>
+                            <div id="mce-responses" class="">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div class="">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </footer>
-    </div>
- 
-    <div class="copyright">	
-        <footer class="container bottom">
-            <div class="sixteen columns">
-                <p>Copyright &copy; 2013 <a href="/">The Winning Numbers</a>, All Rights Reserved.</p>
-            </div>
-        </footer>
-    </div>
-</body>
+            </footer>
+        </div>
+     
+        <div class="copyright">	
+            <footer class="container bottom">
+                <div class="sixteen columns">
+                    <p>Copyright &copy; 2013 <a href="/">The Winning Numbers</a>, All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
