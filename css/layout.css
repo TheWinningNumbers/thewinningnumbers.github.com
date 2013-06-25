@@ -579,4 +579,12 @@ div.status {
 			
 	}
     
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+#mc_embed_signup {
+    background:url(../imgs/stitch_large.png) left top repeat-x, url(../imgs/bg_bottom_1.png) repeat, #343434;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+}
+
+#mc_embed_signup form {
+ padding: 20px 0 10px 3%;
+}
