@@ -24,6 +24,7 @@
    	<link rel="stylesheet" href="/css/base.css">
 	<link rel="stylesheet" href="/css/skeleton.css">
 	<link rel="stylesheet" href="/css/layout.css">
+    <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet" type="text/css">
@@ -46,10 +47,7 @@
     <script type="text/javascript" src="/js/seedrandom.min.js"></script>
     <script type="text/javascript" src="/js/naturalsort.min.js"></script>
     <script type="text/javascript" src="/js/numbers.min.js"></script>
-    <!-- Javascripts Main Settings -->
-    <script type="text/javascript">
-        var username 	= 'Lottery_Winning'; // your twitter username	
-    </script>
+    <script type="text/javascript" src="/js/mailchimp.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
@@ -105,10 +103,28 @@
                     <h4>Stay Up To Date</h4>
                 </div>
                 <p>Stay up to date  by subcribing to the newsletter.</p>
-                <div>
-                    <b>Email address:</b>
-                    <form name="subcribe_form" id="subcribe_form" method="post" action="#">
-                        <input type="email" name="email_subcribe" id="email_subcribe" maxlength="60" placeholder="Please enter your email address..." required="">
+                <div id="mc_embed_signup">
+                    <form action="http://the-winning-numbers.us7.list-manage.com/subscribe/post?u=23e5e7d001f94b65d34b74e42&amp;id=aabf34670b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-FNAME">First Name </label>
+                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                        </div>
+                        <div class="mc-field-group">
+                            <label for="mce-LNAME">Last Name </label>
+                            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>
+                        <div class="clear">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                        </div>
                     </form>
                 </div>
             </div>
