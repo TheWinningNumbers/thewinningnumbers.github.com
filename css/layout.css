@@ -177,6 +177,7 @@ div.status {
 .center {
 	background-color:#FFF;
 	margin-top:20px;
+    padding: 15px;
 }
 	.center .choose_us {
 		padding:20px 10px;
@@ -194,12 +195,17 @@ div.status {
 		margin-bottom:20px;
 	}
 	
-		.center .features_list div, .center .our_team div, .center .latest_work div, .center .pricing div, .center .contact div {
+		.center .features_list div, 
+        .center .our_team div, 
+        .center .latest_work div, 
+        .center .pricing div, 
+        .center .contact div {
 			margin:0px 10px;
 			padding:0px 10px;
 		}
 		
-			.center .features_list div h4, .center .domains_list div h4 {
+			.center .features_list div h4, 
+            .center .domains_list div h4 {
 				font-size:1em;
 				font-weight:bold;
 				line-height:1.4em;
@@ -460,7 +466,7 @@ div.status {
 			}
 			
 	.footer .uptodate {
-		padding:0px 0px 20px 0px !important;
+		padding:0px 0px 0px 0px !important;
 	}
 		
 		.footer .uptodate p {
@@ -585,36 +591,46 @@ div.status {
     font: 14px Helvetica,Arial,sans-serif;
 }
 
+#mc_embed_signup form .button {
+    font-size: 1em;
+}
+
+form#recalculate .button {
+    font-size: 1em;
+}
+
 #mc_embed_signup form {
- padding: 20px 0 10px 3%;
+    padding: 20px 0 10px 3%;
 }
 
 div.regularNumber {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, lightgrey 100%, grey 95%);
     background-image: -webkit-radial-gradient(45px 45px, circle cover, white, lightgrey);
     background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, lightgrey 100%, grey 95%);
     display: inline-block;
     text-align: center;
+    margin-right:10px;
 }
 
 div.bonusNumber {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, red 100%, red 95%);
     background-image: -webkit-radial-gradient(45px 45px, circle cover, white, red);
     background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, red 100%, red 95%);
     display: inline-block;
     text-align: center;
+    margin-right:10px;
 }
 
 div.regularNumber span,
 div.bonusNumber span {
     font-size: 3em;
-    margin-top: 37px;
+    margin-top: 27px;
     display: block;
     font-weight: bolder;
 }

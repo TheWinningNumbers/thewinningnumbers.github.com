@@ -12,21 +12,27 @@ var numbers = (function () {
         Math.seedrandom(d.getTime());
 
         return {
-            getRandomNumbers: function(m,t,a,b) {
+            getRandomNumbers: function(m,t,a,b,e) {
                 var r = [];
                 var n = 0;
                 var i = 0;
                 var c = [];
                 var s = String(d.getTime());
                 
-                if(typeof a != 'undefined') {
+                if(typeof e != 'undefined' && e !== null) {
+                    s = s+String(e);
+                }
+                
+                if(typeof a != 'undefined' && a !== null) {
                     s = s+String(a);
                 }
                 
-                if(typeof b != 'undefined') {
+                if(typeof b != 'undefined' && b !== null) {
                     var c = b.split('-');
-                    c = new Date(c[0],c[1],c[2]);
-                    s = s+String(c.getTime());
+                    if(c.length === 3) {
+                        c = new Date(c[0],c[1],c[2]);
+                        s = s+String(c.getTime());
+                    }
                 }
                 
                 Math.seedrandom(s);
