@@ -1,0 +1,580 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* #Font-Face
+================================================== */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #Site Styles
+================================================== */
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.edgeSection {
+	height:10px;
+	background-color:#ff6c1b;	
+}
+
+.sepSection {
+	clear:both;
+	display:block;
+	height:1px;
+	width:100%;
+}
+
+.sepSectionDouble {
+	clear:both;
+	display:block;
+	height:6px;
+	border-top:1px solid #cfcfcf;
+	border-bottom:1px solid #cfcfcf;
+	width:100%;
+}
+
+.sepBorder {
+	clear:both;
+	display:block;
+	height:8px;
+	width:100%;
+	background:url(../imgs/sepBorder.png) repeat-x left top;
+}
+
+.sepBorder2 {
+	clear:both;
+	background:url(../imgs/sepBorder2.png) repeat-x left center;
+	margin:0px 20px;
+	text-align:center;
+	position:relative;
+	height:1.35em;
+}
+
+	.sepHeader {
+		background-color:#FFF;
+		padding:0px 10px;
+		line-height:1em;
+		font-size:1.25em;
+		font-weight:bold;
+		position:relative;
+		font-family: 'Gentium Basic', serif;
+		text-transform:uppercase;
+	}
+
+.lastCol {
+	margin-right:0px !important;	
+}
+
+.button {
+	color:#FFF !important;
+	text-decoration:none !important;
+	padding:10px 20px;
+	font-weight:normal;	
+}
+
+span.required {
+	color:#F60;	
+}
+
+div.status {
+	margin-top:10px !important;
+	display:inline-block;
+	padding-left:24px !important;
+}
+	
+	div.status.error {
+		color:#F00;
+		background:url(../imgs/status_error.png) no-repeat left center;
+	}
+	
+	div.status.success {
+		color:#093;
+		background:url(../imgs/status_success.png) no-repeat left center;
+	}
+
+/* #Top
+================================================== */
+
+.top {
+	padding:25px 0px;
+	background-color:#f1f1f1;
+}
+	
+	.top .top_left {
+		margin-top:5px;
+	}
+	
+		.top .top_left h1 {
+			font-family:'BebasNeueRegular', Arial,sans-serif;
+			font-size:3.5em;
+			color:#414141;
+			display:inline;
+			margin-right:5px;
+		}
+	
+		.top .top_left h5 {
+			font-size:1.075em;
+			color:#a8a8a8;
+			display:inline;
+			margin:0px;
+		}
+	
+	.top .top_right {
+		text-align:right;
+		padding-top:10px;
+	}
+	
+		.top .top_right img {
+			width:42px;
+		}
+		
+/* #Slider
+================================================== */
+
+.slider {
+	margin:40px auto;
+}
+
+	.slider div.lastCol {
+		margin:0px;
+	}
+
+	.slider .left h2 {
+		background-color:#454545;
+		color:#FFF;
+		padding:5px 10px 0px 10px;
+		font-size:1.85em;
+		font-family:'BebasNeueRegular', Arial,sans-serif;
+		display:inline-block;
+		margin-bottom:20px;
+	}
+	
+	.slider .right img {
+		width:100%;	
+	}
+	
+/* #Center
+================================================== */
+
+.center {
+	background-color:#FFF;
+	margin-top:20px;
+}
+	.center .choose_us {
+		padding:20px 10px;
+		float:left;
+	}
+	
+		.center .choose_us h4 {
+			font-weight:bold;
+			font-size:1.25em;
+		}
+		
+	.center .features_list {
+		float:left;
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+	
+		.center .features_list div, .center .our_team div, .center .latest_work div, .center .pricing div, .center .contact div {
+			margin:0px 10px;
+			padding:0px 10px;
+		}
+		
+			.center .features_list div h4, .center .domains_list div h4 {
+				font-size:1em;
+				font-weight:bold;
+				line-height:1.4em;
+			}
+			
+			.center .features_list div img {
+				width:48px;
+				height:48px;
+				float:left;
+				margin-right:15px;
+				margin-top:-10px;
+			}
+			
+			.center .features_list div p {
+				clear:both;
+				padding-top:10px;	
+			}
+			
+	.center .our_team {
+		float:left;
+		margin-top:30px;
+		margin-bottom:20px;	
+	}
+	
+		.center .our_team img {
+			border:1px solid #EFEFEF;
+			padding:10px;
+			width:100%;
+			display:block;
+		}
+			
+		.center .our_team .desc {
+			margin:10px 0px 0px 0px;
+			padding:0px;	
+		}
+		
+			.center .our_team .desc h5 {
+				color:#454545;
+				font-size:1.075em;
+				font-weight:bold;
+				border-bottom:1px dashed #EFEFEF;
+				padding-bottom:10px;
+				margin-bottom:10px;
+			}
+			
+			.center .our_team .desc p {
+				color:#ACACAC;
+				padding-bottom:5px;
+				margin-bottom:5px;
+				border-bottom:1px dashed #EFEFEF;
+			}
+			
+				.center .our_team .desc p span.left {
+					width:25%;
+					display:inline-block;
+					vertical-align:top;
+				}
+				
+				.center .our_team .desc p span.right {
+					display:inline-block;
+					width:70%;
+				}
+	
+	.center .latest_work {
+		float:left;
+		margin:30px 0px 20px 0px;
+	}
+	
+		.center .latest_work .item {
+			margin-bottom:20px;
+			position:relative;
+		}
+		
+		.center .latest_work span.zoom {
+			position:absolute;
+			width:100%;
+			height:100%;
+			background:url(../imgs/zoom.png) center no-repeat;
+			top:0;
+			left:0;
+			display:none;
+		}
+		
+			.center .latest_work .item img {
+				border:1px solid #EFEFEF;
+				padding:10px;
+				width:100%;
+			}
+			
+	.center .pricing {
+		float:left;
+		margin:30px 0px;
+		text-align:center;
+	}
+	
+		.center .pricing table {
+			border: 1px solid #e4e4e4;
+			width:100%;
+		}
+	
+			.center .pricing thead th {
+				width: auto;
+				padding: 20px;
+				font-family: 'Gentium Basic', serif;
+				font-size: 1.5em;
+				color: #222;
+			}
+			
+			.center .pricing table td {
+				width: auto;
+				padding: 20px;
+			}
+			
+			.center .pricing table ul {
+				margin-bottom:0px;	
+			}
+			
+				.center .pricing table ul li {
+					padding-bottom:10px;
+					background: none;
+					list-style-type: none;
+					display: block;
+					border-bottom: 1px solid #e4e4e4;
+				}
+			
+				.center .pricing table ul li:last-child {
+					margin-bottom: 0px;
+					border-bottom:0px;
+				}
+			
+			.center .pricing table .price_text {
+				padding-top: 20px;
+				font-size: 3em;
+				line-height: 1em;
+				display: block;
+				font-family: 'Gentium Basic', serif;
+				border-top: 1px solid #e4e4e4;
+				border-bottom: 1px solid #e4e4e4;
+				background-color:#F9F9F9;
+				color:#89aa38;
+			}
+			
+				.center .pricing table .price_text span {
+					font-size:0.45em;
+					display:block;	
+				}
+				
+			.center .pricing table tfoot {
+				border-top: 1px solid #e4e4e4;
+				background-color:#F9F9F9;	
+			}
+			
+			.center .pricing table .button {
+				margin-bottom:0px;	
+			}
+	
+	.center .contact {
+		float:left;
+		margin:30px 0px;
+	}
+	
+		.center .contact label {
+			margin-bottom:5px;	
+		}
+	
+		.center .contact input[type=text], .center .contact input[type=email], .center .contact textarea {
+			padding:10px;
+			width:100%;
+			margin-bottom:15px;	
+		}
+		
+		.center .contact textarea {
+			height:120px;	
+		}
+		
+		.center .contact input[type="submit"] {
+			padding:10px 20px;
+		}
+	
+/* #Footer
+================================================== */
+
+.footer {
+	background:url(../imgs/stitch_large.png) left top repeat-x, url(../imgs/bg_bottom_1.png) repeat, #343434;
+	padding-top:40px;
+	color:#e0e0e0;
+}
+
+	.footer p {
+		margin:0px;	
+	}
+	
+	.footer div {
+		padding-bottom:30px;
+	}
+	
+	.footer div.header {
+		background: url(../imgs/diagonal_dark.png) repeat;
+		line-height: 1.25em;
+		margin-bottom:20px;
+		padding:0px;
+	}
+
+		.footer div.header h4 {
+			background: url(../imgs/bg_bottom_1.png) repeat;
+			color:#e0e0e0;
+			font-family: 'Gentium Basic', serif;
+			font-weight:bold;
+			text-transform:uppercase;
+			font-size:1.25em;
+			line-height: 1.25em;
+			letter-spacing: 0.1em;
+			display: inline;
+			padding: 4px 10px;
+			margin-left:15px;
+		}
+		
+	.footer .about {
+		padding:0px 0px 20px 0px !important;
+	}
+		
+		.footer .about p {
+			margin-bottom:10px;	
+		}
+		
+		.footer .about span {
+			margin-bottom: 5px;
+			display: block;
+			background-color: #333;
+			padding: 10px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-khtml-border-radius: 4px;
+			border-radius: 4px;
+		}
+		
+	.footer .tweets {
+		padding:0px 0px 20px 0px !important;
+	}
+		
+		.footer .tweets .tweetText {
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+			background: url(../imgs/stitch_staggered.png) repeat-x left bottom;
+		}
+			
+			.footer .tweets .tweetText .text {
+				display: block;
+				margin-bottom: 5px;
+			}
+				
+			.footer .tweets .tweetText .date {
+				font-family: Georgia, "Times New Roman", Times, serif;
+				font-style: italic;
+				color: #BABABA;
+				font-size: 0.925em;
+				display: block;
+			}
+			
+	.footer .uptodate {
+		padding:0px 0px 20px 0px !important;
+	}
+		
+		.footer .uptodate p {
+			margin-bottom:10px;
+		}
+		
+			.footer .uptodate b {
+				font-weight:bold;
+			}
+			
+			.footer .uptodate input[type="email"] {
+				width:100%;
+				padding:10px;
+				margin-top:10px;
+			}
+
+/* #Copyright
+================================================== */
+
+.copyright {
+	background:url(../imgs/stitch_staggered.png) left top repeat-x, url(../imgs/bg_bottom_2.png) repeat, #343434;
+	padding:10px 0px;
+	color:#e0e0e0;
+	text-align:right;
+}
+
+	.copyright p {
+		margin:0px;	
+	}
+	
+/*ie multiple background image fallbacks*/
+	
+.ie .footer {
+	background: url(../imgs/bg_bottom_1.png) repeat left 2px #343434;
+}
+
+.ie .copyright {
+	background: url(../imgs/bg_bottom_2.png) repeat #343434;
+}
+	
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.sepBorder2 {
+			margin:0px 10px;
+		}
+	
+		.top .top_left h1 {
+			display:block;
+			text-align:center;
+			margin:0px;
+		}
+	
+		.top .top_left h5 {
+			display:block;
+			text-align:center;
+			margin:0px;
+			font-size:1.25em;
+		}
+	
+		.top .top_right, .copyright {
+			text-align:center;
+		}
+	
+		.top .top_right h3 {
+			margin-top:0px;
+		}
+		
+		.slider .right {
+			display:none;	
+		}
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		.sepBorder2 {
+			margin:0px 10px;
+		}
+		
+		.top .top_left h1 {
+			display:block;
+			text-align:center;
+			margin:0px;
+		}
+		
+		.top .top_left h5 {
+			display:block;
+			text-align:center;
+			margin:0px;
+			font-size:1.25em;
+		}
+	
+		.top .top_right, .copyright {
+			text-align:center;
+		}
+	
+		.slider .right {
+			display:none;	
+		}
+			
+	}
