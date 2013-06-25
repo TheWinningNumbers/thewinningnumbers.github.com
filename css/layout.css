@@ -588,3 +588,33 @@ div.status {
 #mc_embed_signup form {
  padding: 20px 0 10px 3%;
 }
+
+div.regularNumber {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, lightgrey 100%, grey 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, white, lightgrey);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, lightgrey 100%, grey 95%);
+    display: inline-block;
+    text-align: center;
+}
+
+div.bonusNumber {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, white 0%, red 100%, red 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, white, red);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, white 0%, red 100%, red 95%);
+    display: inline-block;
+    text-align: center;
+}
+
+div.regularNumber span,
+div.bonusNumber span {
+    font-size: 3em;
+    margin-top: 37px;
+    display: block;
+    font-weight: bolder;
+}
